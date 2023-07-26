@@ -1,7 +1,8 @@
 module Four_Bit_Adder_TB;
 
 reg [3:0]A,B;
-wire S,C_OUT;
+  wire [3:0]S;
+  wire C_OUT;
 
 Four_Bit_Adder([3:0]A,B,[3:0]S,C_OUT);
 
